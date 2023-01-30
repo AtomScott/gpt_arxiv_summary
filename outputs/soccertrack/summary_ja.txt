@@ -1,0 +1,17 @@
+
+# Summary
+本論文では、8K解像度の魚眼レンズカメラと4K解像度のドローンカメラで撮影した映像にGNSSとバウンディングボックスのトラッキングデータを注釈したデータセット「SoccerTrack」を紹介します。このデータセットを用いて、GNSS、魚眼レンズカメラ、ドローンカメラのデータ間のトラッキング精度を評価しました。魚眼レンズとドローンカメラで収集したデータを、ピッチ座標に変換した。さらに、ボール検出のために物体検出器を学習させ、魚眼映像の検出値と注釈付きドローン映像の検出値との間でICPを行い、各バウンディングボックスのIDを推定した。魚眼映像の平均追跡性能は14、ドローン映像は57という結果になった。この論文では、魚眼レンズの位置データのバイアス補正RMSEがGNSSのそれよりも正確であったことを示唆している。
+
+# 実験の様子
+魚眼カメラとドローンから収集したデータをGNSSデータと比較し、追跡精度を評価した。GNSS データはドローンおよび魚眼データと同じ周波数にアップサンプリングし、GNSS とドローンのデータ間のユークリッド距離と魚眼とドローンのデータ間の距離を用いてバイアス補正した RMSE を算出した。魚眼映像の平均追尾性能は14、ドローン映像は57という結果になりました。
+
+# さらに読む。
+論文 MOT16: A benchmark for multi-object tracking by IEEE/CVF Conference on Computer Vision and Pattern Recognition June 2021、論文 Soccer Video and Player Position Dataset by Peize Sun et al、論文 Pose estimation and tracking in soccer videos using a graph convolutional network by Zhongdao Wang et al、論文 Multi-Object Tracking with OR-CNN:Rui Zhaoらによる論文「Multi-Oject Tracking with OR-CNN: A 3D Region Proposal Network for Real-Time Object Tracking」は、さらに詳しい情報を得ることができます。
+
+# 用語解説
+- GNSS：Global Navigation Satellite System（全地球衛星測位システム
+- LPS: ローカルポジショニングシステム
+- RMSE: 平均二乗誤差(Root Mean Squared Error)
+- ICP：Iterative Closest Point（反復的最接近点）。
+- OSNet：オープンセットネットワークオープンセットネットワーク
+- GFootballGoogle Research Football：Googleリサーチフットボール

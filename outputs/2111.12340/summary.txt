@@ -1,0 +1,12 @@
+
+Summary: This paper examines the play-style characteristics of football RL agents and how strategies may develop during training. It uses deep reinforcement learning (RL) methods to develop agents that excel in a wide range of applications, and applies social network analysis (SNA) to explore what can be learnt from the use of simulated environments. It was found that there is a strong correlation between the agent’s competitiveness and various SNA metrics, and aspects of the RL agent’s play style become similar to real-world footballers as the agent becomes more competitive.
+
+Experiments: An agent was trained using proximal policy optimization in a Google Research Football simulation environment for 50 million timesteps against the built-in easy, medium, and hard-level bots. The TrueSkill ranking system was used to rank the agents, and pagerank was calculated based on the total number of passes a player made. The metrics used to analyze playing characteristics included number of passes/shots, and social network analysis metrics such as closeness, betweenness, and pagerank. It was found that ”Total Shots” and ”Betweenness (mean)” had a strong positive correlation with TrueSkill rankings, and the metric with the largest overall correlation was the pagerank aggregated by the minimum value in the network. 
+
+Further reading: To learn more about the application of RL in football, the paper ‘Robot Soccer’ by Itsuki (1995) and ‘Reinforcement Learning for Robot Soccer’ by Wunsch (2015) are recommended readings. 
+
+Glossary: 
+- Deep Reinforcement Learning (DRL): A subset of RL that combines the traditional reinforcement learning setup with deep neural networks 
+- Proximal Policy Optimization (PPO): An algorithm used to learn policies for agents to play Google Research Football 
+- Social Network Analysis (SNA): A technique used to analyze the intelligence of coordinated RL agents and compare their characteristics with real-world data 
+- TrueSkill Ranking System: A round-robin tournament used to rank the agents

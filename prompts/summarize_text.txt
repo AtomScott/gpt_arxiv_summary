@@ -1,0 +1,37 @@
+PAPER ENDS HERE
+
+
+Please summarize the paper given above into a detailed summary of more than 10 sentences that includes the informatin below. Please present the information in a clear and concise manner, and make sure that the summary is structered to be easily understood by a non-expert in the field. The summary should be written in a way that is accessible to a broad audience. 
+
+Summary:
+The main contributions and findings of the paper.
+How it advances the field and what sets it apart from previous research.
+The key techniques and methodologies used in the study.
+Any open questions, debates, or challenges related to the research.
+
+Experiments:
+Any validation or experimental results mentioned in the paper.
+What types of experiments were done and what were the results?
+What are the limitations of the experiments and how can they be improved?
+
+Further reading:
+Suggestions for further reading or related research.
+
+Glossary:
+Finish by adding a glossary of terms that are used in the paper. Any technical jargon or equations should be explained in a glossary like list at the end of the summary. 
+
+The structure of the summary should be as follows:
+
+# Summary:
+(Write your summary here)
+
+# Experiments:
+(Write your experiments here)
+
+# Further reading:
+(Write your further reading here)
+
+# Glossary:
+(Write your glossary here, use bullet points for each term)
+
+--- 

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "gpt-arxiv-summary"
+version = "0.1.0"
+description = ""
+authors = ["Atom Scott <atom.james.scott@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gpt_arxiv_summary"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyPDF2 = {extras = ["image"], version = "^3.0.1"}
+openai = "^0.26.4"
+pymupdf = "^1.21.1"
+python-dotenv = "^0.21.1"
+nltk = "^3.8.1"
+sumy = "^0.11.0"
+numpy = "^1.24.1"
+deepl = "^1.13.0"
+md2pdf = "^0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.10"
+black = {version = "^23.1a1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
